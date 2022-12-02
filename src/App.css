@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+
+.temp {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background-color: rgb(241, 241, 241);
+  border: #282c34 1px solid;
+  border-radius: 1000px;
+}
+
+.circle {
+  position: absolute;
+  left:0px;
+  top: 50%;
+  z-index: 10;
+  
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+
+  transform: translate(0%,-50%);
+  background-image: url("https://hackernoon.com/_next/image?url=https%3A%2F%2Fcdn.hackernoon.com%2Fimages%2FGRZpzqpoJyMvFZW6lPH4PI3T5HB2-e493o3w.jpeg&w=1200&q=75");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
