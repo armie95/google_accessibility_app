@@ -1,12 +1,11 @@
-import React from 'react'
-import Clock from '../Clock'
-import Screen from './../Screen';
+import React from 'react';
+import Clock from '../Clock';
 
 const HomePage = () => {
     return (
-        <Screen>
+        <>
             <Clock />
-        </Screen>
+        </>
     )
 }
 
